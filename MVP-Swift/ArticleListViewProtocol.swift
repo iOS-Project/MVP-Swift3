@@ -9,7 +9,6 @@
 import Foundation
 
 protocol ArticleListViewProtocol {
-    func updateView()
     func setArticle(_ articles: [Article])
     func setEmptyArticle()
 }

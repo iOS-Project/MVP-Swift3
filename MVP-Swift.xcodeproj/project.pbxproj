@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D76EB009FC529D984CDC68 /* Pods_MVP_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A7C5C280C03831F4C8DFDA /* Pods_MVP_Swift.framework */; };
 		D52FBE481DFBA86800E5E0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE471DFBA86800E5E0B9 /* AppDelegate.swift */; };
-		D52FBE4A1DFBA86800E5E0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE491DFBA86800E5E0B9 /* ViewController.swift */; };
 		D52FBE4D1DFBA86800E5E0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52FBE4B1DFBA86800E5E0B9 /* Main.storyboard */; };
 		D52FBE4F1DFBA86800E5E0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52FBE4E1DFBA86800E5E0B9 /* Assets.xcassets */; };
 		D52FBE521DFBA86800E5E0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52FBE501DFBA86800E5E0B9 /* LaunchScreen.storyboard */; };
+		D52FBE651DFBAF8300E5E0B9 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE641DFBAF8300E5E0B9 /* Article.swift */; };
+		D52FBE6C1DFBB12400E5E0B9 /* ArticleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE6B1DFBB12400E5E0B9 /* ArticleListTableViewController.swift */; };
+		D52FBE6F1DFBB17A00E5E0B9 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE6D1DFBB17A00E5E0B9 /* ArticleCell.swift */; };
+		D52FBE701DFBB17A00E5E0B9 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52FBE6E1DFBB17A00E5E0B9 /* ArticleCell.xib */; };
+		D52FBE721DFBB89400E5E0B9 /* ArticleListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE711DFBB89400E5E0B9 /* ArticleListViewProtocol.swift */; };
+		D52FBE741DFBC15800E5E0B9 /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBE731DFBC15800E5E0B9 /* ArticleService.swift */; };
+		D5E7B3031DFBCFEF00A3897C /* ArticleListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7B3021DFBCFEF00A3897C /* ArticleListPresenter.swift */; };
+		D5E7B3051DFBD44700A3897C /* ArticleListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7B3041DFBD44700A3897C /* ArticleListPresenterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31BE6BE77716B87A785028C7 /* Pods-MVP-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP-Swift/Pods-MVP-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		3CCADB733C43963027DFA5F3 /* Pods-MVP-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP-Swift/Pods-MVP-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		62A7C5C280C03831F4C8DFDA /* Pods_MVP_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52FBE441DFBA86800E5E0B9 /* MVP-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52FBE471DFBA86800E5E0B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D52FBE491DFBA86800E5E0B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D52FBE4C1DFBA86800E5E0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D52FBE4E1DFBA86800E5E0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52FBE511DFBA86800E5E0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52FBE531DFBA86800E5E0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52FBE641DFBAF8300E5E0B9 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D52FBE6B1DFBB12400E5E0B9 /* ArticleListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListTableViewController.swift; sourceTree = "<group>"; };
+		D52FBE6D1DFBB17A00E5E0B9 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D52FBE6E1DFBB17A00E5E0B9 /* ArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		D52FBE711DFBB89400E5E0B9 /* ArticleListViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewProtocol.swift; sourceTree = "<group>"; };
+		D52FBE731DFBC15800E5E0B9 /* ArticleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		D5E7B3021DFBCFEF00A3897C /* ArticleListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListPresenter.swift; sourceTree = "<group>"; };
+		D5E7B3041DFBD44700A3897C /* ArticleListPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListPresenterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D76EB009FC529D984CDC68 /* Pods_MVP_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3D2CDD30CE926C5D8074AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CCADB733C43963027DFA5F3 /* Pods-MVP-Swift.debug.xcconfig */,
+				31BE6BE77716B87A785028C7 /* Pods-MVP-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C92C66B293775079E8DB8BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62A7C5C280C03831F4C8DFDA /* Pods_MVP_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D52FBE3B1DFBA86700E5E0B9 = {
 			isa = PBXGroup;
 			children = (
 				D52FBE461DFBA86800E5E0B9 /* MVP-Swift */,
 				D52FBE451DFBA86800E5E0B9 /* Products */,
+				1C3D2CDD30CE926C5D8074AC /* Pods */,
+				C92C66B293775079E8DB8BA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,93 @@
 		D52FBE461DFBA86800E5E0B9 /* MVP-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D52FBE471DFBA86800E5E0B9 /* AppDelegate.swift */,
-				D52FBE491DFBA86800E5E0B9 /* ViewController.swift */,
-				D52FBE4B1DFBA86800E5E0B9 /* Main.storyboard */,
-				D52FBE4E1DFBA86800E5E0B9 /* Assets.xcassets */,
-				D52FBE501DFBA86800E5E0B9 /* LaunchScreen.storyboard */,
-				D52FBE531DFBA86800E5E0B9 /* Info.plist */,
+				D52FBE5B1DFBA8A900E5E0B9 /* Assets */,
+				D52FBE5C1DFBA8CE00E5E0B9 /* Module */,
+				D52FBE5A1DFBA89500E5E0B9 /* System Resource */,
+				D52FBE591DFBA87B00E5E0B9 /* Storyboard */,
 			);
 			path = "MVP-Swift";
+			sourceTree = "<group>";
+		};
+		D52FBE591DFBA87B00E5E0B9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE4B1DFBA86800E5E0B9 /* Main.storyboard */,
+				D52FBE501DFBA86800E5E0B9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		D52FBE5A1DFBA89500E5E0B9 /* System Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE471DFBA86800E5E0B9 /* AppDelegate.swift */,
+				D52FBE531DFBA86800E5E0B9 /* Info.plist */,
+			);
+			name = "System Resource";
+			sourceTree = "<group>";
+		};
+		D52FBE5B1DFBA8A900E5E0B9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE4E1DFBA86800E5E0B9 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D52FBE5C1DFBA8CE00E5E0B9 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE661DFBAF9700E5E0B9 /* List */,
+				D52FBE5F1DFBA8F800E5E0B9 /* Data Model */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		D52FBE5F1DFBA8F800E5E0B9 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE641DFBAF8300E5E0B9 /* Article.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		D52FBE661DFBAF9700E5E0B9 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE681DFBB03F00E5E0B9 /* Model */,
+				D52FBE691DFBB05400E5E0B9 /* Presenter */,
+				D52FBE6A1DFBB05C00E5E0B9 /* VIew */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		D52FBE681DFBB03F00E5E0B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE731DFBC15800E5E0B9 /* ArticleService.swift */,
+				D5E7B3041DFBD44700A3897C /* ArticleListPresenterProtocol.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D52FBE691DFBB05400E5E0B9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7B3021DFBCFEF00A3897C /* ArticleListPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		D52FBE6A1DFBB05C00E5E0B9 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBE6B1DFBB12400E5E0B9 /* ArticleListTableViewController.swift */,
+				D52FBE6D1DFBB17A00E5E0B9 /* ArticleCell.swift */,
+				D52FBE6E1DFBB17A00E5E0B9 /* ArticleCell.xib */,
+				D52FBE711DFBB89400E5E0B9 /* ArticleListViewProtocol.swift */,
+			);
+			name = VIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52FBE561DFBA86800E5E0B9 /* Build configuration list for PBXNativeTarget "MVP-Swift" */;
 			buildPhases = (
+				6B00823C5D89216B1E2B1401 /* [CP] Check Pods Manifest.lock */,
 				D52FBE401DFBA86700E5E0B9 /* Sources */,
 				D52FBE411DFBA86700E5E0B9 /* Frameworks */,
 				D52FBE421DFBA86700E5E0B9 /* Resources */,
+				E2A531CB92B6D2F3CF6DDA45 /* [CP] Embed Pods Frameworks */,
+				DD6765ABFB4D63B63C0BF6AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52FBE701DFBB17A00E5E0B9 /* ArticleCell.xib in Resources */,
 				D52FBE521DFBA86800E5E0B9 /* LaunchScreen.storyboard in Resources */,
 				D52FBE4F1DFBA86800E5E0B9 /* Assets.xcassets in Resources */,
 				D52FBE4D1DFBA86800E5E0B9 /* Main.storyboard in Resources */,
@@ -132,12 +253,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B00823C5D89216B1E2B1401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6765ABFB4D63B63C0BF6AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP-Swift/Pods-MVP-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A531CB92B6D2F3CF6DDA45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP-Swift/Pods-MVP-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D52FBE401DFBA86700E5E0B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52FBE4A1DFBA86800E5E0B9 /* ViewController.swift in Sources */,
+				D52FBE721DFBB89400E5E0B9 /* ArticleListViewProtocol.swift in Sources */,
+				D52FBE6F1DFBB17A00E5E0B9 /* ArticleCell.swift in Sources */,
+				D52FBE741DFBC15800E5E0B9 /* ArticleService.swift in Sources */,
+				D5E7B3051DFBD44700A3897C /* ArticleListPresenterProtocol.swift in Sources */,
+				D52FBE6C1DFBB12400E5E0B9 /* ArticleListTableViewController.swift in Sources */,
+				D52FBE651DFBAF8300E5E0B9 /* Article.swift in Sources */,
+				D5E7B3031DFBCFEF00A3897C /* ArticleListPresenter.swift in Sources */,
 				D52FBE481DFBA86800E5E0B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +434,7 @@
 		};
 		D52FBE571DFBA86800E5E0B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCADB733C43963027DFA5F3 /* Pods-MVP-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S3L3V3L25C;
@@ -272,6 +448,7 @@
 		};
 		D52FBE581DFBA86800E5E0B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BE6BE77716B87A785028C7 /* Pods-MVP-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S3L3V3L25C;
@@ -302,6 +479,7 @@
 				D52FBE581DFBA86800E5E0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

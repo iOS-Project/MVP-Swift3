@@ -7,3 +7,6 @@
 //
 
 import Foundation
+protocol ArticleListPresenterProtocol {
+    func responseArticle(_ articles: [Article])
+}

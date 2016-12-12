@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import AlamofireObjectMapper
+
+class Article{
+    var id:Int?
+    var title:String?
+    var description:String?
+    var imageUrl:String?
+}
+
+
